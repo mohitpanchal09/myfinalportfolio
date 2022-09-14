@@ -1,0 +1,114 @@
+
+.harsh{
+    display: flex;
+    flex: 1;
+
+}
+
+
+.main_header{
+    position: fixed;
+    height: 85px;
+    color: black;
+    background-color: white;
+    margin-top: -15px;
+    display: flex;
+    flex: 1;
+    z-index: 50;
+    align-items: center;
+    position: fixed;
+    box-shadow: 0px 2px 2px gainsboro;
+    width: 100%;
+    /* background-color: blue; */
+}
+.name{
+    color: black;
+    margin-left: 195px;
+    font-weight: 800;
+    font-size: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
+.name1{
+    color: rgb(73, 164, 156);
+    margin-left: 20px !important;
+    font-weight: 800;
+    font-size: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+button{
+    background-color: rgb(73, 164, 156);
+    border: 0px;
+    height: 30px;
+    border-radius: 4px;
+    /* box-shadow: 0px 2px 2px; */
+    width: 80px;
+    color: white;
+    padding-left: 0px!important;
+    
+}
+.home__button{
+    /* padding-left: 400px; */
+    background-color: white;
+    margin: 20px;
+    padding-left: 0px;
+}
+.about__button{
+    /* padding-left: 50px; */
+    background-color: white;
+    margin: 20px;
+}
+.skills__button{
+    /* padding-left: 50px; */
+    background-color: white;
+    margin: 20px;
+}
+.services__button{
+    /* padding-left: 50px; */
+    background-color: white;
+    margin: 20px;
+}
+.work__button{
+    /* padding-left: 50px; */
+    background-color: white;
+    margin: 20px;
+}
+@media screen and (max-width:390px){
+    
+    
+    .harsh{
+        margin-left: -160px;
+    }
+    .name{
+        font-size: 20px;
+    }
+
+    .name1{
+        font-size: 20px;
+        margin-left: 10px !important;
+    }
+    .h2{
+        font-size: small;
+    }
+    .header{
+        width: 100%;
+        
+        
+    }
+    .home__button{
+        margin: 0px;
+    }
+    .about__button{
+        margin: 0px;
+    }
+    .skills__button{
+        margin: 0px;
+    }
+    .services__button{
+        margin: 0px;
+    }
+    .work__button{
+        margin: 0px;
+    }
+    
+}

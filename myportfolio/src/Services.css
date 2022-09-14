@@ -1,0 +1,106 @@
+.services1{
+    background-color: white;
+
+    width: 300px;
+    margin: 60px auto;
+    color: rgb(6, 4, 4);
+    padding: 20px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.2);
+  }
+.services{
+    display: flex;
+    flex-direction: row;
+}
+.services2{
+    background-color: white;
+
+    width: 300px;
+    margin: 60px auto;
+    color: rgb(6, 4, 4);
+    padding: 20px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.2);
+  }
+  .services3{
+    background-color: white;
+
+    width: 300px;
+    margin: 60px auto;
+    color: rgb(6, 4, 4);
+    padding: 20px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.2);
+  }
+p{
+    font-size: 25px;
+    font-weight: 500;
+    text-anchor: middle;
+
+    line-height: 40px;
+    
+}
+h2{
+    color: rgb(73, 164, 156);
+    font-family:cursive;
+    font-weight: 800;
+}
+.services1:hover{
+    background-color:black;
+    color: white;
+}
+.services2:hover{
+    background-color:black;
+    color: white;
+}
+.services3:hover{
+    background-color:black;
+    color: white;
+}
+
+@media screen and (max-width:600px){
+    .services1{
+        margin: 10px;
+        height: 340px;
+        width: 100px;
+
+      }
+      .services2{
+        margin: 10px;
+        height: 340px;
+        width: 100px;
+      }
+      .services3{
+        margin: 10px;
+        height: 340px;
+        width: 100px;
+      }
+      .services1>h2{
+          height:5px;
+          font-size: 15px;
+      }
+      .services2>h2{
+        height:5px;
+        font-size: 15px;
+    }
+    .services3>h2{
+        height:5px;
+        font-size: 15px;
+    }
+    .services1>p{
+        margin-top: 50px;
+        font-size: small;
+        line-height: 20px;
+        font-weight: 400;
+    }
+    .services2>p{
+        margin-top: 70px;
+        font-size: small;
+        line-height: 20px;
+        font-weight: 400;
+    }
+    .services3>p{
+        margin-top: 50px;
+        font-size: small;
+        line-height: 20px;
+        font-weight: 400;
+    }
+
+}

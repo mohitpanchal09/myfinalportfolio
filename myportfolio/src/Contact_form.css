@@ -1,0 +1,82 @@
+.contact_box{
+   width: 500px;
+   background-color: #fff;
+   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.2);
+   height: 500px;
+   margin-left: 500px;
+   
+    
+}
+.contact_form{
+    padding-bottom: 100px;
+}
+form{
+    margin: 35px;
+    
+
+}
+.input_field{
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    border: 1 px solid #777;
+    border-radius: 10px;
+
+}
+.myar{
+    height: 150px;
+    width: 400px;
+    margin-top: 20px;
+    padding-left: 10px;
+    border-width: 1 px solid #777;
+    border-radius: 10px;
+}
+.send_btn{
+    height: 40px;
+    /* margin-right: 334px; */
+    color: white;
+}
+.send_btn:hover{
+    height: 45px;
+    width: 90px;
+    font-weight: 700;
+}
+@media screen and (max-width:600px){
+    .contact_box{
+        margin-left: 93px;
+        width: 300px;
+        height: 440px;
+        margin-top: 100px;
+    }
+    .input_field{
+        width: 200px;
+        height: 30px;
+        margin-top: 10px;
+        padding-left: 5px;
+        border: 1 px solid #777;
+        border-radius: 10px;
+    
+    }
+    form{
+        margin: 50px;
+        
+    
+    }
+    .myar{
+        height: 100px;
+        width: 195px;
+        margin-top: 20px;
+        padding-left: 10px;
+        border: 1 px solid #777!important;
+        border-radius: 10px;
+    }
+    .send_btn{
+        height: 40px;
+        margin-right: 120px;
+        /* margin-bottom: 40px; */
+        color: white;
+        width: 80px;
+    }
+}
+
